@@ -4,7 +4,7 @@ Projeto criado para o estudo das ferramentas de *Web Scraping* e geração de re
 
 Acesse o post no Blog [aqui](https://learndata.com/tutorial-relatórios-de-vagas-parte-1).
 
-<p align="center"><img src="https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/web%20dark.png"></p>
+<p align="center"><img src="https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/Relatorio.png" width=50%></p>
 
 ## Apresentando o *Case*
 
