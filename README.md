@@ -2,7 +2,7 @@
 
 Projeto criado para o estudo das ferramentas de *Web Scraping* e geração de relatórios
 
-Acesse o post no Blog [aqui](tutorial-relatórios-de-vagas-parte-1).
+Acesse o post no Blog [aqui](https://learndata.com/tutorial-relatórios-de-vagas-parte-1).
 
 <p align="center"><img src="https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/web%20dark.png"></p>
 
