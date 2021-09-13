@@ -27,7 +27,7 @@ PAGE_HEIGHT = letter[1]  # Altura da Página
 PAGE_WIDTH = letter[0]  # Largura da Página
 styles = getSampleStyleSheet()  # Estilo da Página
 
-image = "C:\\Users\\geova\\OneDrive\\Área de Trabalho\\Python\\Indeed\\LearningData_dark.png"
+image = "LearningData_dark.png"
 my_canvas = Canvas("Vagas.pdf", pagesize=letter)
 pageinfo = "LearningData"
 title = "Vagas Indeed"
@@ -86,8 +86,8 @@ Segue em anexo o relatório de vagas dos últimos 3 dias.
     mensagem = MIMEMultipart()
     # mensagem = email.message.Message()
     mensagem['Subject'] = 'Relatório de Vagas Indeed - Últimos 3 dias'
-    mensagem['From'] = 'xxxxxx@xx.com'
-    mensagem['To'] = 'xxxxxxx@xx.com'
+    mensagem['From'] = 'seu_email@xx.com'
+    mensagem['To'] = 'email_que_vai_enviar@xx.com'
     password = 'sua_senha'
     mensagem.add_header('Content-Type', 'text/html')
     mensagem.attach(MIMEText(corpo_email, 'plain'))
