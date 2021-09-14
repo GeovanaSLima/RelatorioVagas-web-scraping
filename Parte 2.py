@@ -44,7 +44,7 @@ def first_page(canvas, doc):
     canvas.restoreState()
 
 
-def later_pagers(canvas, doc):
+def later_pages(canvas, doc):
     canvas.saveState()
     canvas.setFont('Times-Roman', 9)
     canvas.drawString(x=500, y=15, text="Página %d / %s" % (doc.page, pageinfo))
