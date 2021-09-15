@@ -2,7 +2,9 @@
 
 Projeto criado para o estudo das ferramentas de *Web Scraping* e geração de relatórios
 
-Acesse o post no Blog [aqui](https://learndata.com/tutorial-relatórios-de-vagas-parte-1).
+Acesse o post da Parte I no Blog [aqui](https://learningdata.dev/tutorial-relatórios-de-vagas-parte-1).
+
+Acesse o post da Parte II no Blog [aqui](https://learningdata.dev/tutorial-relatórios-de-vagas-parte-2).
 
 <p align="center"><img src="https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/Relatorio_1.png" width=50%></p>
 
@@ -25,6 +27,14 @@ Para fazer isso, você acredita que poderia usar o Indeed para encontrar as vaga
 * Criação do Arquivo CSV
 
 
+### [Parte II](https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/Parte%202.py)
+
+* Criação do Relatório com *ReportLab*
+* Criar e enviar a mensagem por e-mail com o Relatório em anexo
+
+<br>
+
+### [Código Completo](https://github.com/GeovanaSLima/RelatorioVagas-web-scraping/blob/main/Completo.py)
 <br>
 
 ## Selenium
@@ -64,4 +74,25 @@ O Selenium exige um *driver* para interagir com o browser escolhido. Os *drivers
 
 ---
 
+## ReportLab
 
+ReportLab é uma biblioteca do python para criar documentos em Portable Document Format (PDF), podendo criar gráficos em vários bitmaps e formatos de vetores. A biblioteca permite qye você crie documentos com comandos gráficos, sem a necessidade de passos intervencionais. Sendo assim, suas aplicaçõs conseguem gerar relatórios de forma rápida com pouquíssimas restrições para sua utilização. As principais aplicações do RepostLab são:
+
+* Geração de PDFs dinâmicos a partir da Web
+* Relatórios corporativos a partir de grandes banco de dados
+* Criar um sistema de construção para relatórios gerenciais, contábeis e estatísticos complexos com gráficos, imagens, tabelas e texto 
+* Transformar XML em PDF
+* Transformar CSV/XLSX em PDF
+
+> [Documentações](https://www.reportlab.com/dev/docs/)
+>
+> [User Guide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+
+### Versões do Python Suportadas
+* Python  2.7 e 3.6+
+
+### Instalação
+
+```python3 -m pip install reportlab```
+
+---
