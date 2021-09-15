@@ -71,7 +71,7 @@ def pdf_file_generator():
                 story.append(Spacer(1, 2))
                 story.append(p2)
                 story.append(Spacer(1, 5))
-            doc.build(story, onFirstPage=first_page, onLaterPages=later_pagers)
+            doc.build(story, onFirstPage=first_page, onLaterPages=later_pages)
 
 
 # Enviar por Email ---------------------------------------------------------------------
