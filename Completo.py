@@ -3,7 +3,7 @@ Criando um Relatório automático de Vagas do Indeed com o Selenium + Python
 
 Código Completo
 
-@2021 Created By Geovana Sousa - LearnData
+@2021 Created By Geovana Sousa - LearningData
 """
 
 # $ python3 -m pip install Selenium
